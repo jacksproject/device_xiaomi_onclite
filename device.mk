@@ -76,6 +76,9 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 PRODUCT_PACKAGES += \
     AntHalService
 
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
