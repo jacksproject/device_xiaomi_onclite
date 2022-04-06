@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
     libstdc++.vendor \
-    CameraGo
+    Snap
 
 # Component overrides
 PRODUCT_COPY_FILES += \
