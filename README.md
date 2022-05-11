@@ -31,6 +31,10 @@ budget smartphone from Xiaomi.
   ![Xiaomi Redmi 7 ](https://i.imgur.com/PjaQrqr.png "Xiaomi Redmi 7")
 
 
+
+# Notice
+
+`KeyChain` shouldn't be removed! 移除了这个可能会导致系统重启。
  
                 
 
