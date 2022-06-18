@@ -78,6 +78,9 @@ vendor.vidc.enc.disable.pq=true
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.radio.procedure_bytes=SKIP
