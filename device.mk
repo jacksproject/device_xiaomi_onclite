@@ -18,7 +18,11 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+<<<<<<< Updated upstream
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-cherish
+=======
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rdroid
+>>>>>>> Stashed changes
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -407,7 +411,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
+<<<<<<< Updated upstream
     vendor.lineage.trust@1.0-service
+=======
+   vendor.lineage.trust@1.0-service
+>>>>>>> Stashed changes
 
 # USB HAL
 PRODUCT_PACKAGES += \
