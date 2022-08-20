@@ -74,7 +74,8 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService
+    AntHalService-Soong \
+    com.dsi.ant@1.0.vendor
 
 # Audio
 PRODUCT_PACKAGES += \
